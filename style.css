@@ -1,0 +1,158 @@
+* {
+    background-color: #181E29;
+}
+
+.navbar {
+    /* background-color: #f2f2f2; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    position: sticky;
+    top:0;
+    backdrop-filter: blur(8px);
+    background: none;
+   
+
+    padding-top: 1.3rem;
+}
+
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background: none;
+
+}
+
+.nav-links li {
+    display: block;
+    background: none;
+  
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid gray;
+    border-radius: 4px;
+    z-index: 1;
+    height: 10rem;
+}
+
+.dropdown-content li {
+    display: block;
+    padding-top: 1.5rem;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.button a.get {
+    text-decoration: none;
+    color: #fff;
+    background-color: #460BF9;
+    border: 1px solid #460BF9;
+    border-radius: 6px;
+    padding: 12px 27px;
+    transition: transform 0.4s ease;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    /* transition: box-shadow 0.3s ease; */
+  }
+
+
+
+.button a.get:hover{
+    transform: translateY(-8px) !important;
+    box-shadow: 0px 0px 8px blue;
+}
+
+
+
+
+
+
+.button a.sign-in {
+    background-color: #181E29;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #54585F;
+    border-radius: 4px;
+    margin-right: .5rem;
+    transition: transform 0.3s ease;
+    padding: 12px 25px;
+
+
+}
+
+
+.button a.sign-in:hover {
+    background-color: #460BF9;
+    transform: translateY(-5px);
+}
+
+
+
+
+.video {
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.video video{
+    box-shadow: 2px  2px   2px   2px  blue;
+
+}
+
+
+
+
+.heading{
+    display: flex;
+ justify-content: center;
+}
+
+.featured h1{
+    color: white;
+ font-size: 3rem;
+ padding-top: 3em;
+}
+
+/* .showcase{
+    display: flex;
+ flex-direction:row;
+ justify-content: center;
+ column-gap: 5rem;
+ background-color: #2A364F;
+}
+
+
+.showcase .box{
+   
+} */
+
+
+
+
+
+
+
+
+
