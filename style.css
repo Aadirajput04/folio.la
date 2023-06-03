@@ -120,11 +120,12 @@ a.sign-in {
 
 
 .first1-text {
-    display: flex;
-    justify-content: center;
+   
     text-align: center;
-    margin-top: -35px;
-    font-size: 0px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+   
 
 
 }
@@ -639,7 +640,7 @@ li {
     /* padding: 12px 27px 12px 27px; */
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
-    display:flex;
+     display:flex;
     align-items: center;
     gap: 0.5rem;
     
