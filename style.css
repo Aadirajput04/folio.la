@@ -72,11 +72,13 @@ body {
     padding: 12px 27px;
     transition: transform 0.4s ease !important;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
-    /* transition: box-shadow 0.3s ease; */
+    transition: box-shadow 0.3s ease;
+    display: inline-block;
 }
 
 a.get:hover {
     transform: translateY(-8px) !important;
+
     box-shadow: 0px 0px 8px blue;
 }
 
@@ -88,11 +90,14 @@ a.sign-in {
     border: 1px solid #54585F;
     border-radius: 4px;
     margin-right: .5rem;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
     padding: 12px 25px;
+    display: inline-block;
+
 
 
 }
+
 
 
 .sign-in:hover {
@@ -124,6 +129,17 @@ a.sign-in {
 
 }
 
+.first-text p {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+/* 
 .boost {
     color: #460BF9;
 }
@@ -138,7 +154,7 @@ a.sign-in {
 
 .demos {
     color: goldenrod;
-}
+} */
 
 .Iam {
 
@@ -478,7 +494,9 @@ a.sign-in {
     line-height: 1em;
     margin-top: -10px;
     ;
-    color: #460BF9;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -509,7 +527,9 @@ a.sign-in {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
 
 
 }
@@ -523,6 +543,9 @@ a.sign-in {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
 
 }
 
@@ -616,6 +639,10 @@ li {
     /* padding: 12px 27px 12px 27px; */
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
+    
 
 
     cursor: pointer;
@@ -636,7 +663,7 @@ li {
 }
 
 
-.headings2{
+.headings2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -645,30 +672,33 @@ li {
     text-align: center;
 }
 
-.headings2 h1{
+.headings2 h1 {
     color: white;
     font-size: 50px;
     font-weight: 900;
     line-height: 1em;
     font-family: sans-serif;
 }
-.headings2 h2{
+
+.headings2 h2 {
     color: #122aff;
     font-size: 42px;
     font-weight: 900;
     line-height: 0.5em;
     font-family: sans-serif;
 }
-.headings2 h2 .cla{
+
+.headings2 h2 .cla {
     color: rgb(231, 129, 231);
 }
 
-.headings2 h2 .demo1{
- color: rgb(251, 198, 66);
+.headings2 h2 .demo1 {
+    color: rgb(251, 198, 66);
 }
-.headings2 p{
+
+.headings2 p {
     color: #A7AAB1;
-    font-family: Circularstd,sans-serif;
+    font-family: Circularstd, sans-serif;
     font-size: 18px;
     line-height: 1.8em;
 }
@@ -697,7 +727,8 @@ li {
     transition: transform 0.3s;
     transition: box-shadow 0.3s ease;
 }
-.image-grid img:hover{
+
+.image-grid img:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
