@@ -2,6 +2,10 @@ body {
     background-color: #0b101b;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     /* background-color: #f2f2f2; */
 
@@ -120,18 +124,19 @@ a.sign-in {
 
 
 .first1-text {
-   
+
     text-align: center;
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-   
+    background: linear-gradient(to right, #9600e1, #e100a4 25%, #ff504b 61%, #ffb01c 97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 3rem;
+
 
 
 }
 
 .first-text p {
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background: linear-gradient(to right, #0035fd 0%, #eb00a1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -188,11 +193,11 @@ a.sign-in {
 
 
     /*animation*/
-    -webkit-animation: move 5s;
-    -moz-animation: move 5s;
-    -ms-animation: move 5s;
-    -o-animation: move 5s;
-    animation: move 5s;
+    -webkit-animation: move 4s;
+    -moz-animation: move 45s;
+    -ms-animation: move 4s;
+    -o-animation: move 4s;
+    animation: move 4s;
     /*animation-iteration-count*/
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
@@ -333,6 +338,7 @@ a.sign-in {
     color: #A7AAB1;
     /* width: 29rem; */
     font-size: 22px;
+    margin-top: -2rem;
 }
 
 .suitable {
@@ -495,7 +501,7 @@ a.sign-in {
     line-height: 1em;
     margin-top: -10px;
     ;
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background: linear-gradient(to right, #9600e1, #e100a4 25%, #ff504b 61%, #ffb01c 97%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -528,7 +534,7 @@ a.sign-in {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    display:flex;
+    display: flex;
     align-items: center;
     gap: 0.5rem;
 
@@ -544,7 +550,7 @@ a.sign-in {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    display:flex;
+    display: flex;
     align-items: center;
     gap: 0.5rem;
 
@@ -640,10 +646,10 @@ li {
     /* padding: 12px 27px 12px 27px; */
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
-     display:flex;
+    display: flex;
     align-items: center;
     gap: 0.5rem;
-    
+
 
 
     cursor: pointer;
@@ -682,11 +688,14 @@ li {
 }
 
 .headings2 h2 {
-    color: #122aff;
+    background: linear-gradient(to right, #9600e1, #e100a4 25%, #ff504b 61%, #ffb01c 97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 42px;
     font-weight: 900;
-    line-height: 0.5em;
+    line-height: .9em;
     font-family: sans-serif;
+
 }
 
 .headings2 h2 .cla {
@@ -733,4 +742,54 @@ li {
     transform: translateY(-5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: #282c35;
+    border-radius: 1rem;
+    overflow: hidden;
+    object-fit: cover;
+ transition: transform 0.6s;
+ height: 100%;
+ cursor: pointer;
+   
+}
+.card .updates{
+ border-top-left-radius: 1rem;
+ border-top-right-radius: 1rem;
+ 
+
+
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.container-123 {
+    padding: 10px 28px;
+}
+.artical{
+    color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-top: 5rem;
+   
+}
+.container-123 h4 img{
+    display: inline-block;
+  
+
+}
+.container-123 h4{
+    display: inline-flex;
+    gap: 0.7rem;
 }
