@@ -716,8 +716,7 @@ li {
 }
 
 .image-grid img {
-    /* width: 100%; */
-    /* height: auto; */
+   
     max-width: 100%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
