@@ -567,7 +567,7 @@ a.sign-in {
     display: flex;
     flex: 50%;
     align-items: center;
-    /* justify-content: center; */
+   
 }
 
 .flex-item-right {
