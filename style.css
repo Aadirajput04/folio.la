@@ -752,16 +752,18 @@ li {
 
 }
 
+
+/* ---------------------------------------------------------------card css starts here----------------------------- */
 .heading-last {
     text-align: center;
     margin-top: 10rem;
     color: white;
 }
 
-.heading-las h1 {
+.heading-last h1 {
     font-size: 44px;
     font-weight: 900;
-    line-height: 1.2em;
+    line-height: 55px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
