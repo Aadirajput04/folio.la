@@ -709,8 +709,7 @@ li {
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* padding-left: 8rem;
-    padding-right: 7rem; */
+    
     gap: 2rem;
 
     margin-top: 5rem;
